@@ -82,6 +82,16 @@ footer ul {
   justify-content: center;
 }
 
+#menu {
+  font-size: 3vw;
+  list-style-type: none;
+}
+
+#burger {
+  float: left;
+  padding-left: 10px;
+}
+
 nav ul li,
 footer ul li {
   margin-right: 4ch;
