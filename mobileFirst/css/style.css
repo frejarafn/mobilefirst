@@ -51,11 +51,6 @@ p {
   max-width: 35ch; /* undgå lange ulæselige linjer */
 }
 
-figcaption {
-  font-style: italic;
-  margin-left: var(--whitespace);
-  margin-right: var(--whitespace);
-}
 
 /* Smooth scroll */
 html {
