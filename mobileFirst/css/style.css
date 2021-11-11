@@ -71,7 +71,7 @@ html {
 nav,
 footer {
   background-color: var(--header);
-  padding: 35px 0;
+  padding: 30px 0;
   text-align: center;
 
 }
@@ -92,7 +92,7 @@ footer ul {
 #burger {
   float: left;
   padding-left: 10px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 nav ul li,
