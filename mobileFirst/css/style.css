@@ -114,6 +114,7 @@ section {
 /* Billeder */
 img {
   width: 100%;
+  float: left;
 }
 
 /* MOBILE FIRST (via Flexbox) */
