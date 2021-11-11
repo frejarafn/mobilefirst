@@ -101,7 +101,7 @@ footer {
 /* Footer */
 footer {
   width: 100%;
-  margin-bottom: 0px; /* fordi: nedarver 20px fra nav,footer */
+  margin-bottom: 10px; /* fordi: nedarver 20px fra nav,footer */
 }
 
 /* Sections (højde == skærmhøjde) */
