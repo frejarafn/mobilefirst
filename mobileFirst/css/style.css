@@ -112,8 +112,15 @@ section {
 /* Billeder */
 img {
   max-width: 100%;
+<<<<<<< HEAD
   min-height: 100%;
   float: left;
+=======
+
+  min-height: 100%;
+  float: left;
+
+>>>>>>> fce4bd94c7bd9d05924f47c21802fb2b29ac63c4
 }
 
 /* MOBILE FIRST (via Flexbox) */
