@@ -43,6 +43,12 @@ h3 {
   margin-bottom: var(--whitespace);
 }
 
+#overskrift {
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
 p {
   margin-left: var(--whitespace);
   margin-right: var(--whitespace);
@@ -68,7 +74,7 @@ footer {
   background-color: var(--header);
   padding: 35px 0;
   text-align: center;
-  margin-bottom: 20px;
+
 }
 
 nav ul,
