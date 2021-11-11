@@ -112,11 +112,12 @@ section {
 /* Billeder */
 img {
   max-width: 100%;
+  min-height: 100%;
 }
 
 /* MOBILE FIRST (via Flexbox) */
 .example {
-  
+
   color: blue;
 }
 
