@@ -14,6 +14,7 @@
   --brun: #a86c12;
   --groen: #99a812;
   --roed: rgb(0, 82, 94);
+  --header: #18515e;
 
   /* fonte */
   --overskrift: 'avenir';
@@ -28,6 +29,7 @@ body {
   font-family: var(--broedtekst);
   background-color: var(--white);
   color: var(--dark);
+
 }
 
 /* Typografisk */
@@ -68,7 +70,7 @@ html {
 /* Navigation and footer */
 nav,
 footer {
-  background-color: var(--dark);
+  background-color: var(--header);
   padding: 35px 0;
   text-align: center;
   margin-bottom: 20px;
@@ -112,7 +114,7 @@ img {
 /* 1. Mobile enheder (begynd her) */
 @media only screen and (max-width: 320px) {
   /* A. Giv baggrunden en farve */
- 
+
   /* === Menuen === */
 
   /* B. vis burgeren */
