@@ -47,7 +47,7 @@ p {
   margin-left: var(--whitespace);
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
-  font-size: 1.2em;
+  font-size: 1em;
   max-width: 35ch; /* undgå lange ulæselige linjer */
 }
 
@@ -120,7 +120,12 @@ img {
 }
 
 /* MOBILE FIRST (via Flexbox) */
+.example {
+  padding: 20px;
+  color: blue;
+}
 
+<<<<<<< Updated upstream
 /* 1. Mobile enheder (begynd her) */
 @media only screen and (max-width: 320px) {
   /* A. Giv baggrunden en farve */
@@ -128,18 +133,16 @@ img {
   /* === Menuen === */
 
   /* B. vis burgeren */
+=======
+>>>>>>> Stashed changes
 
-  /* C. Skjul menu og burgermenu */
 
-  /**
-   * Videre
+/* 1. Mobile enheder (begynd her) */
+@media only screen and (max-width: 600px) {
+  /* A. Giv baggrunden en farve */
+  .example {background: pink;}
+   section {font-size: 2em;}
 
-  Husk at man skal kunne navigere med fingrene:
-  D. Knapper
-  E. Links
-  F. Stor let læsbar font
-  G. Burgermenu (evt. med CSS animation)
-  */
 }
 
 /* 2. Tablets mv. (fortsæt her) */
@@ -147,9 +150,9 @@ img {
 Research:
 * iPad width > 321px
 */
-@media only screen and (min-width: 321px) {
+@media only screen and (min-width: 600px) {
   /* Vælg en anden baggrundsfarve til tablets */
-
+  .example {background: green;}
   /* Flexbox: design efter skitser */
 
   /* Menu */
@@ -192,9 +195,23 @@ Research:
 }
 
 /* 3. Stor skærm (slut her) */
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
+.example {background: black;}
+  /* 3.B.: Skjul burgeren */
 
+  /* 3.C.: Vis menuen, og gør den horisontal */
+
+  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
+
+  /* 3.E.: Giv fuld bredde til øverste section */
+
+}
+
+@media only screen and (min-width: 992px) {
+  /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
+.example {background: blue;}
+section {font-size: 0.2em;}
   /* 3.B.: Skjul burgeren */
 
   /* 3.C.: Vis menuen, og gør den horisontal */
