@@ -13,7 +13,7 @@
   --white: #ffffff;
   --brun: #a86c12;
   --groen: #99a812;
-  --roed: #a82112;
+  --roed: rgb(0, 82, 94);
 
   /* fonte */
   --overskrift: 'Brush Script MT', cursive;
@@ -112,7 +112,7 @@ img {
 /* 1. Mobile enheder (begynd her) */
 @media only screen and (max-width: 320px) {
   /* A. Giv baggrunden en farve */
-
+ 
   /* === Menuen === */
 
   /* B. vis burgeren */
