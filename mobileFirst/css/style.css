@@ -82,6 +82,8 @@ footer ul {
   list-style-type: none;
 }
 
+
+
 #burger {
   float: left;
   padding-left: 10px;
@@ -111,14 +113,12 @@ section {
 
 /* Billeder */
 img {
-  max-width: 100%;
-  min-height: 100%;
-  float: left;
+  width: 100%;
 }
 
 /* MOBILE FIRST (via Flexbox) */
 .example {
-
+  padding: 20px;
   color: blue;
 }
 
