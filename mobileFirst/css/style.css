@@ -112,7 +112,11 @@ section {
 /* Billeder */
 img {
   max-width: 100%;
+<<<<<<< HEAD
   min-height: 100%;
+=======
+  float: left;
+>>>>>>> da79879f9b5c99666df3d8ed309bb9a52905cef3
 }
 
 /* MOBILE FIRST (via Flexbox) */
