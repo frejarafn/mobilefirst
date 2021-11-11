@@ -16,8 +16,8 @@
   --roed: rgb(0, 82, 94);
 
   /* fonte */
-  --overskrift: 'Brush Script MT', cursive;
-  --broedtekst: Helvetica, sans-serif;
+  --overskrift: 'avenir';
+  --broedtekst: avenir;
 
   /* whitespace */
   --whitespace: .5rem;
@@ -26,8 +26,8 @@
 /* Her bruges en variabel: --blue */
 body {
   font-family: var(--broedtekst);
-  background-color: var(--brun);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--dark);
 }
 
 /* Typografisk */
@@ -99,7 +99,7 @@ footer {
 
 /* Sections (højde == skærmhøjde) */
 section {
-  background-color: var(--roed);
+  background-color: var(--white);
 }
 
 /* Billeder */
