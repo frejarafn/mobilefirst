@@ -106,6 +106,7 @@ label{
     display: inline-block;
     width: 100%;
     padding: 15px 20px;
+    color: white;
 
     cursor: pointer;
     text-align: center;
@@ -124,9 +125,7 @@ ul{
     text-align: left;
     width: 100%;
     z-index: 1;
-    margin:0;
-    padding:0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
 
     display: none;
 }
@@ -135,8 +134,9 @@ ul li{
     padding: 15px;
     background-color: #fff;
     color: #4FB9A7;
-    margin-bottom: 1px;
+    margin: 10px;
     cursor: pointer;
+    display: flex;
 }
 
 ul li:hover{
@@ -145,7 +145,7 @@ ul li:hover{
 }
 
 ul li a{
-    color: inherit;
+    color: var(--header);
     text-decoration: none;
 }
 
@@ -159,8 +159,8 @@ input[type=checkbox]:checked ~ ul {
 
 #burger {
   float: left;
-  padding-left: 10px;
-  font-size: 30px;
+  padding-left: 15px;
+  font-size: 20px;
   text-decoration: none;
 }
 
