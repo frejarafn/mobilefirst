@@ -98,7 +98,6 @@ nav a {
 /* Footer */
 #footer {
   width: 100%;
-  padding: 10px;
   color: var(--white);
   background-color: var(--header);
   text-align: center;
@@ -113,6 +112,7 @@ section {
 img {
   width: 100%;
   display: flex;
+
 }
 
 
