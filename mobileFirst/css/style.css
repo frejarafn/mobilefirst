@@ -47,6 +47,7 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 1ch;
   color: white;
+padding: 0;
 }
 
 p {
@@ -94,6 +95,8 @@ nav {
   background-color: var(--header);
   padding: 10px 0;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
