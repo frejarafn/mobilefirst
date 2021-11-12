@@ -121,24 +121,22 @@ footer {
   justify-content: space-between;
 }
 
-footer div {
-  flex: 1;
-}
+
 
 footer div:nth-child(2) {
-  text-align: right;
+  text-align: center;
 }
 
+footer div:nth-child(3) {
+  font-size: 3rem;
+  text-align: right;
+}
 .facebook{
   width: 40px;
-  padding-left: 80%;
-  padding-top: 45%;
 }
 
 .insta{
-  width: 20px;
-  padding-left: 65%;
-
+  width: 40px;
 
 }
 
