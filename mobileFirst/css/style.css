@@ -59,10 +59,6 @@ p {
   max-width: 35ch;
 }
 
-li {
-  text-decoration: none;
-  list-style-type: none;
-}
 
 /* Smooth scroll */
 html {
@@ -123,34 +119,29 @@ label{
 
 /*  The ul will have display:none by default */
 
-ul{
+ul {
     position: absolute;
     list-style: none;
     text-align: left;
     width: 100%;
     z-index: 1;
-    padding: 12px 16px;
-
     display: none;
 }
 
-ul li{
-    padding: 15px;
-    background-color: #fff;
-    color: #4FB9A7;
-    margin: 10px;
-    cursor: pointer;
-    display: flex;
-}
-
-ul li:hover{
-    background-color: #4FB9A7;
-    color: #FFF;
-}
-
 ul li a{
+    padding-right: 15px;
+    background-color: #fff;
     color: var(--header);
+    margin: 3px;
+    cursor: pointer;
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover{
+    background-color: #4FB9A7;
+    color: black;
 }
 
 input[type=checkbox]:checked ~ label {
