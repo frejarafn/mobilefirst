@@ -132,15 +132,11 @@ footer div:nth-child(3) {
   text-align: right;
 }
 .facebook{
-<<<<<<< HEAD
-  width: 30px;
+  width: 40px;
   position: absolute;
   top: 950px;
   left: 10px;
-=======
-  width: 40px;
 
->>>>>>> ddec54b0e299652fc76bb2a77d363dddfadccc72
 }
 
 .insta{
