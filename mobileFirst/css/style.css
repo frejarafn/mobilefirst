@@ -132,7 +132,7 @@ footer div:nth-child(3) {
   text-align: right;
 }
 .facebook{
-  width: 40px;
+  width: 39px;
   position: absolute;
   top: 950px;
   left: 10px;
@@ -140,7 +140,7 @@ footer div:nth-child(3) {
 }
 
 .insta{
-  width: 40px;
+  width: 50px;
   position: absolute;
   top: 946px;
   left: 50px;
