@@ -130,14 +130,17 @@ footer div:nth-child(2) {
 }
 
 .facebook{
-  width: 40px;
-  
+  width: 30px;
+  position: absolute;
+  top: 950px;
+  left: 10px;
 }
 
 .insta{
-  width: 20px;
-
-
+  width: 40px;
+  position: absolute;
+  top: 946px;
+  left: 50px;
 
 }
 
