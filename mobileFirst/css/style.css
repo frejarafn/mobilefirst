@@ -11,8 +11,6 @@
   /* farver */
   --dark: #190604;
   --white: #ffffff;
-  --brun: #a86c12;
-  --groen: #99a812;
 
   --header: rgb(0, 82, 94);
 
@@ -86,7 +84,7 @@ html {
 /* Navigation and footer */
 nav {
   background-color: var(--header);
-  padding: 30px 0;
+  padding: 10px 0;
   text-align: center;
 }
 
@@ -111,6 +109,7 @@ section {
 /* Billeder */
 img {
   width: 100%;
+  display: flex;
 }
 
 
