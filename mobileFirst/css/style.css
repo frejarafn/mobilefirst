@@ -44,7 +44,7 @@ body {
 
 #overskrift {
   font-family: retiro-std-24pt, sans-serif;
-  font-size: 25px;
+  font-size: 1ch;
   color: white;
 }
 
@@ -84,6 +84,9 @@ html {
   text-decoration: none;
 }
 
+#logo {
+  width: 1em;
+}
 
 /* Navigation and footer */
 nav {
@@ -99,6 +102,8 @@ nav a {
 nav li {
   list-style-type: none;
   text-decoration: none;
+  justify-content: center;
+  display: inline
 }
 
 /* Footer */
