@@ -107,24 +107,12 @@ nav li {
 }
 
 /* Footer */
-footer {
+#footer {
   width: 100%;
-  
   color: var(--white);
   background-color: var(--header);
-
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
-
-footer div {
-  flex: 1;
-}
-
-footer div:nth-child(2) {
-  text-align: right;
-}
-
 
 /* Sections (højde == skærmhøjde) */
 section {
