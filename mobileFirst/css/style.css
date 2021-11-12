@@ -13,8 +13,8 @@
   --white: #ffffff;
   --brun: #a86c12;
   --groen: #99a812;
-  --roed: rgb(0, 82, 94);
-  --header: #18515e;
+
+  --header: rgb(0, 82, 94);
 
   /* fonte */
   --overskrift: 'avenir';
@@ -44,7 +44,7 @@ body {
 
 #overskrift {
   font-family: retiro-std-24pt, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
@@ -53,13 +53,14 @@ p {
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
   font-size: 1em;
-  max-width: 35ch; /* undgå lange ulæselige linjer */
+  max-width: 35ch;
 }
 
 
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+
 }
 
 /* Wrap */
@@ -68,19 +69,6 @@ html {
 }
 
 /* Navigation and footer */
-nav,
-footer {
-  background-color: var(--header);
-  padding: 30px 0;
-  text-align: center;
-
-}
-
-nav ul,
-footer ul {
-  display: flex; /* horisontal menu */
-  justify-content: center;
-}
 
 #menu {
   font-size: 3vw;
@@ -88,28 +76,31 @@ footer ul {
 }
 
 
-
 #burger {
   float: left;
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
-nav ul li,
-footer ul li {
-  margin-right: 4ch;
+
+/* Navigation and footer */
+nav {
+  background-color: var(--header);
+  padding: 30px 0;
+  text-align: center;
 }
 
-nav a,
-footer {
+nav a {
   color: var(--white);
-  text-decoration: none;
 }
 
 /* Footer */
-footer {
+#footer {
   width: 100%;
-  margin-bottom: 10px; /* fordi: nedarver 20px fra nav,footer */
+  padding: 10px;
+  color: var(--white);
+  background-color: var(--header);
+  text-align: center;
 }
 
 /* Sections (højde == skærmhøjde) */
@@ -120,7 +111,6 @@ section {
 /* Billeder */
 img {
   width: 100%;
-  float: left;
 }
 
 
@@ -131,8 +121,9 @@ img {
 }
 
 
+/* Her begynder de forskellige devices */
 
-/* 1. Mobile enheder (begynd her) */
+/* 1. Mobile enheder */
 @media only screen and (max-width: 600px) {
   /* A. Giv baggrunden en farve */
   .example {background: pink;}
@@ -140,11 +131,8 @@ img {
 
 }
 
-/* 2. Tablets mv. (fortsæt her) */
-/*
-Research:
-* iPad width > 321px
-*/
+/* 2. Tablets */
+
 @media only screen and (min-width: 600px) {
   /* Vælg en anden baggrundsfarve til tablets */
   .example {background: green;}
