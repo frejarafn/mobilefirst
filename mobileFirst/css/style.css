@@ -121,19 +121,26 @@ footer {
   justify-content: space-between;
 }
 
-footer div {
-  flex: 1;
-}
+
 
 footer div:nth-child(2) {
-  text-align: right;
+  text-align: center;
 }
 
+footer div:nth-child(3) {
+  font-size: 3rem;
+  text-align: right;
+}
 .facebook{
+<<<<<<< HEAD
   width: 30px;
   position: absolute;
   top: 950px;
   left: 10px;
+=======
+  width: 40px;
+
+>>>>>>> ddec54b0e299652fc76bb2a77d363dddfadccc72
 }
 
 .insta{
