@@ -104,6 +104,7 @@ nav li {
 /* Footer */
 footer {
   width: 100%;
+  
   color: var(--white);
   background-color: var(--header);
 
