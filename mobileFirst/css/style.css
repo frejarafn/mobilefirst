@@ -94,7 +94,6 @@ html {
 /* Navigation and footer */
 nav {
   background-color: var(--header);
-  padding: 10px 0;
   text-align: center;
   display: flex;
   justify-content: space-between;
