@@ -30,7 +30,6 @@ header{
   text-align: center;
   margin-top: var(--whitespace);
   margin-bottom: var(--whitespace);
-  height:
 }
 
 /* Her bruges en variabel: --blue */
@@ -109,7 +108,6 @@ footer {
 nav a,
 footer {
   color: var(--white);
-  text-decoration: none;
 }
 
 /* Footer */
