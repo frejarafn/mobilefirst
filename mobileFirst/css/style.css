@@ -110,7 +110,6 @@ footer {
 nav a,
 footer {
   color: var(--white);
-  text-decoration: none;
 }
 
 /* Footer */
