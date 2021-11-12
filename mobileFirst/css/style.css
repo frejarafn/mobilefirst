@@ -81,6 +81,7 @@ html {
   float: left;
   padding-left: 10px;
   font-size: 30px;
+  text-decoration: none;
 }
 
 
@@ -93,6 +94,11 @@ nav {
 
 nav a {
   color: var(--white);
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /* Footer */
