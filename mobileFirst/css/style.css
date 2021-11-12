@@ -69,13 +69,6 @@ html {
 }
 
 /* Navigation and footer */
-nav,
-footer {
-  background-color: var(--header);
-  padding: 35px 0;
-  text-align: center;
-}
-
 
 #menu {
   font-size: 3vw;
@@ -91,30 +84,23 @@ footer {
 
 
 /* Navigation and footer */
-nav,
-footer {
+nav {
   background-color: var(--header);
   padding: 30px 0;
   text-align: center;
 }
 
-footer {
-  max-width: 100%;
-  margin-bottom: 10px; /* fordi: nedarver 20px fra nav,footer */
-}
-
-
-nav a,
-footer {
+nav a {
   color: var(--white);
 }
 
 /* Footer */
-footer {
+#footer {
   width: 100%;
-  margin-bottom: 10px; /* fordi: nedarver 20px fra nav,footer */
-  padding: 0px;
-
+  padding: 10px;
+  color: var(--white);
+  background-color: var(--header);
+  text-align: center;
 }
 
 /* Sections (højde == skærmhøjde) */
