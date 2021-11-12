@@ -96,7 +96,7 @@ footer {
 }
 footer {
   max-width: 100%;
-  min-height: 100%
+  min-height: 100%;
   margin-bottom: 10px; /* fordi: nedarver 20px fra nav,footer */
 }
 
@@ -104,7 +104,6 @@ footer {
 nav a,
 footer {
   color: var(--white);
-  text-decoration: none;
 }
 
 
