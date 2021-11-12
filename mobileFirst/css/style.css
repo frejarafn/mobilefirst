@@ -59,6 +59,10 @@ p {
   max-width: 35ch;
 }
 
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
 
 /* Smooth scroll */
 html {
