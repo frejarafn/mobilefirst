@@ -101,60 +101,47 @@ input[type=checkbox]{
 
 /* Click to expand button */
 
-label{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    padding: 15px 20px;
-    color: white;
-
-    cursor: pointer;
-    text-align: center;
-
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.dropbtn {
+  background-color: var(--header);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-/*  The ul will have display:none by default */
-
-ul {
-    position: absolute;
-    list-style: none;
-    text-align: left;
-    width: 100%;
-    z-index: 1;
-    display: none;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-ul li a{
-    padding-right: 15px;
-    background-color: #fff;
-    color: var(--header);
-    margin: 3px;
-    cursor: pointer;
-    display: inline-block;
-    text-decoration: none;
-    text-align: center;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-ul li a:hover{
-    background-color: #4FB9A7;
-    color: black;
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
-input[type=checkbox]:checked ~ label {
-    background-color: #3D88BD;
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-input[type=checkbox]:checked ~ ul {
-    display: block;
+.dropdown:hover .dropbtn {
+  background-color: #004954;
 }
 
 #burger {
-  float: left;
-  padding-left: 15px;
   font-size: 20px;
   text-decoration: none;
 }
