@@ -58,10 +58,8 @@ h2 {
 h3 {
   font-family: var(--broedtekst);
   text-align: center;
-  font-size: 1.2em;
-
+  font-size: 1em;
 }
-
 
 p {
   font-family: var(--broedtekst);
