@@ -24,7 +24,6 @@
 
 header{
   font-family: var(--overskrift);
-  font-size: 2.2em;
   text-align: center;
   margin-top: var(--whitespace);
   margin-bottom: var(--whitespace);
@@ -46,7 +45,7 @@ body {
 
 #overskrift {
   font-family: retiro-std-24pt, sans-serif;
-  font-size: 1ch;
+  font-size: 2ch;
   color: white;
 padding: 0;
 }
@@ -139,7 +138,7 @@ input[type=checkbox]{
 }
 
 #logo {
-  width: 1em;
+  width: 2em;
   margin-right: 10px;
 }
 
