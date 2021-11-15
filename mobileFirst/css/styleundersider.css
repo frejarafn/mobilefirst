@@ -50,6 +50,10 @@ body {
 padding: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 p {
   margin-left: var(--whitespace);
   margin-right: var(--whitespace);
