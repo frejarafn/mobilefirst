@@ -181,7 +181,9 @@ footer div:nth-child(2) {
   display: flex;
 }
 
-
+.kontakt{
+  font-size: 2ch;
+}
 
 .facebook{
 width: 40px;
