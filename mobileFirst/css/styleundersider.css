@@ -40,7 +40,6 @@ body {
 }
 
 
-
 /* Typografisk */
 
 #overskrift {
@@ -80,17 +79,6 @@ html {
     font-size: 16px;
     color: #FFF;
 }
-
-/**
-    Hide the checkbox itself. Checking and unchecking
-    it we will be done via the label element.
-*/
-
-input[type=checkbox]{
-    display: none;
-}
-
-/* Click to expand button */
 
 .dropbtn {
   background-color: var(--header);
