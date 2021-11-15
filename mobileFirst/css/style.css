@@ -193,11 +193,14 @@ footer div:nth-child(2) {
 .facebook{
 width: 40px;
 height: 40px;
+padding-top: 5px;
+
 }
 
 .insta{
   width: 40px;
   height: 40px;
+  padding-top: 20px;
 }
 
 
