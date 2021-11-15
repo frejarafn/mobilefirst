@@ -62,6 +62,8 @@ p {
   padding-bottom: var(--whitespace);
   font-size: 1em;
   max-width: 35ch;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
 }
 
 
