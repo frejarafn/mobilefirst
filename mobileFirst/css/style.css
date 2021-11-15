@@ -216,6 +216,9 @@ img {
 
 }
 
+a {
+    text-decoration: none;
+  }
 
 /* MOBILE FIRST (via Flexbox) */
 .example {
