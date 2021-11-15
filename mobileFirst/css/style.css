@@ -71,14 +71,6 @@ html {
   min-height: 100vh;
 }
 
-/* Navigation and footer */
-
-#menu {
-  font-size: 3vw;
-  list-style-type: none;
-  padding-top: 70px;
-}
-
 
 
 /* Dropdown burgermenuen */
@@ -148,6 +140,7 @@ input[type=checkbox]{
 
 #logo {
   width: 1em;
+  margin-right: 10px;
 }
 
 /* Navigation and footer */
