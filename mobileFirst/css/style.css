@@ -137,6 +137,7 @@ input[type=checkbox]{
   font-size: 13px;
   padding: 0;
   z-index: 1;
+  block-size: auto;
 }
 
 .third-level-menu > li
