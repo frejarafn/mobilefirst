@@ -142,6 +142,9 @@ input[type=checkbox]{
   margin-right: 10px;
 }
 
+
+
+
 /* Navigation and footer */
 nav {
   background-color: var(--header);
@@ -216,6 +219,9 @@ img {
 
 }
 
+a {
+    text-decoration: none;
+  }
 
 /* MOBILE FIRST (via Flexbox) */
 .example {
