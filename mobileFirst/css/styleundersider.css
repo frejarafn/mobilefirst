@@ -50,10 +50,13 @@ padding: 0;
 }
 
 h2 {
+  font-family: var(--broedtekst);
   text-align: center;
+  font-size: 1.5em;
 }
 
 p {
+  font-family: var(--broedtekst);
   margin-left: var(--whitespace);
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
