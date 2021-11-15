@@ -1,0 +1,328 @@
+/**
+ * fil: css/style.css
+ **/
+
+/* Reset: Meyer Style */
+/* fjerner default browser styles */
+@import 'reset.css';
+
+/* Farve- og fontvariabler */
+:root {
+  /* farver */
+  --dark: #190604;
+  --white: #ffffff;
+
+  --header: rgb(0, 82, 94);
+
+  /* fonte */
+  --overskrift: 'avenir';
+  --broedtekst: avenir;
+
+  /* whitespace */
+  --whitespace: .5rem;
+}
+
+header{
+  font-family: var(--overskrift);
+  text-align: center;
+  margin-top: var(--whitespace);
+  margin-bottom: var(--whitespace);
+  margin: 0;
+}
+
+/* Her bruges en variabel: --blue */
+body {
+  font-family: var(--broedtekst);
+  background-color: var(--white);
+  color: var(--dark);
+  margin: 0;
+
+}
+
+
+
+/* Typografisk */
+
+#overskrift {
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 2.4ch;
+  color: white;
+padding: 0;
+}
+
+p {
+  margin-left: var(--whitespace);
+  margin-right: var(--whitespace);
+  padding-bottom: var(--whitespace);
+  font-size: 1em;
+  max-width: 35ch;
+}
+
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+
+}
+
+/* Wrap */
+#wrap {
+  min-height: 100vh;
+}
+
+
+
+/* Dropdown burgermenuen */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+}
+
+/**
+    Hide the checkbox itself. Checking and unchecking
+    it we will be done via the label element.
+*/
+
+input[type=checkbox]{
+    display: none;
+}
+
+/* Click to expand button */
+
+.dropbtn {
+  background-color: var(--header);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.burgeroverskrifter {
+  font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #004954;
+}
+
+.third-level-menu {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0;
+  z-index: 1;
+  block-size: auto;
+}
+
+#burger {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#logo {
+  width: 2em;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+
+
+
+/* Navigation and footer */
+nav {
+  background-color: var(--header);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: var(--white);
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: center;
+  display: inline
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 200px;
+  color: var(--white);
+  background-color: var(--header);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+footer div:nth-child(2) {
+
+  display: flex;
+}
+
+.kontakt{
+font-size: 2ch;
+font-family: niveau-grotesk, sans-serif;
+font-weight: 300;
+font-style: normal;
+padding-left: 1ch;
+padding-top: 1ch;
+}
+
+.facebook{
+width: 3ch;
+height: 3ch;
+padding-top: 0.5ch;
+padding-left: 0ch;
+
+}
+
+.insta{
+  width: 3ch;
+  height: 3ch;
+  padding-top: 0.5ch;
+  padding-left: 0ch;
+}
+
+
+/* Sections (højde == skærmhøjde) */
+section {
+  background-color: var(--white);
+}
+
+/* Billeder */
+img {
+  width: 100%;
+  display: flex;
+
+}
+
+a {
+    text-decoration: none;
+  }
+
+/* MOBILE FIRST (via Flexbox) */
+.example {
+  padding: 20px;
+  color: blue;
+}
+
+
+/* Her begynder de forskellige devices */
+
+/* 1. Mobile enheder */
+@media only screen and (max-width: 600px) {
+  /* A. Giv baggrunden en farve */
+  .example {background: pink;}
+   section {font-size: 2em;}
+
+}
+
+/* 2. Tablets */
+
+@media only screen and (min-width: 600px) {
+  /* Vælg en anden baggrundsfarve til tablets */
+  .example {background: green;}
+  /* Flexbox: design efter skitser */
+
+  /* Menu */
+
+  /* 2.A. gør burgeren synlig */
+
+  /* 2.B Skjul menu og burgermenu */
+
+  /* --- Flexbox (responsivt flex) --- */
+
+  /* 2.C. Sæt main til flex, flex-wrap til wrap og gap på 10px */
+
+  /* 2.D Forklaring:
+
+  main > * betyder: for alle "børn" af main { ... css her  ...}
+  Se disse tutorials
+
+  @url: https://flexbox-pattern-cheatsheet.kevinpowell.co/
+  @url: https://www.w3schools.com/cssref/css3_pr_flex.asp
+
+  Prøv:
+
+  main > * {
+    flex: 1 1 32ch;
+  }
+   */
+
+  /*
+  Forkortelsen 'flex' kan sætte flere værdier på en gang.
+  Mere om anvendelsen af flex her:
+  @url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+
+  Fx: Three values: flex-grow | flex-shrink | flex-basis
+  flex: 2 2 10%;
+
+  Alternativt bruges box sizing, se
+  @url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+  */
+
+}
+
+/* 3. Stor skærm (slut her) */
+@media only screen and (min-width: 768px) {
+  /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
+.example {background: black;}
+  /* 3.B.: Skjul burgeren */
+
+  /* 3.C.: Vis menuen, og gør den horisontal */
+
+  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
+
+  /* 3.E.: Giv fuld bredde til øverste section */
+
+}
+
+@media only screen and (min-width: 992px) {
+  /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
+.example {background: blue;}
+section {font-size: 0.2em;}
+  /* 3.B.: Skjul burgeren */
+
+  /* 3.C.: Vis menuen, og gør den horisontal */
+
+  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
+
+  /* 3.E.: Giv fuld bredde til øverste section */
+
+}
