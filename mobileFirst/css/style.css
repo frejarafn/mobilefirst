@@ -180,19 +180,21 @@ footer div:nth-child(2) {
   display: flex;
 }
 
-
+.kontakt{
+  font-size: 2ch;
+}
 
 .facebook{
-width: 40px;
-height: 40px;
+width: 2.5ch;
+height: 2.5ch;
 padding-top: 5px;
 padding-left: 5px;
 
 }
 
 .insta{
-  width: 40px;
-  height: 40px;
+  width: 2.5ch;
+  height: 2.5ch;
   padding-top: 20px;
   padding-left: 5px;
 }
