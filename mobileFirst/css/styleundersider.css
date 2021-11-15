@@ -64,6 +64,8 @@ p {
   max-width: 35ch;
   padding-left: 1.6em;
   padding-right: 1.6em;
+  text-align: justify;
+  hyphens: auto;
 }
 
 
@@ -208,6 +210,10 @@ nav li {
   justify-content: center;
   display: inline
 }
+
+
+/* css specifikt til Om HMT undersiden*/
+
 
 /* Footer */
 footer {
