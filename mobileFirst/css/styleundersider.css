@@ -432,6 +432,7 @@ a {
     margin-right: auto;
   }
 
+
   #undersidebilleder {padding-left: 100px;}
 
 .dtmenu{display: flex;}
@@ -458,6 +459,7 @@ section {font-size: 0.2em;}
   margin-right: auto;
 }
 
+
   /* 3.B.: Skjul burgeren */
 
   /* 3.C.: Vis menuen, og gør den horisontal */
@@ -465,5 +467,3 @@ section {font-size: 0.2em;}
   /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
 
   /* 3.E.: Giv fuld bredde til øverste section */
-
-}
