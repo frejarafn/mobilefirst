@@ -11,7 +11,7 @@
   /* farver */
   --dark: #190604;
   --baggrundsfarve: #eaf1f2;
-  --white: #ffffff;
+  --white: rgb(255, 255, 255);
   --header: rgb(0, 82, 94);
 
   /* fonte */
@@ -46,7 +46,7 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 2.4ch;
   color: white;
-padding: 0;
+  padding: 0;
 }
 
 h2 {
