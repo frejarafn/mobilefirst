@@ -409,7 +409,9 @@ a {
 section {font-size: 0.2em;}
 #overskrift {
   max-width: 15em;
-  margin-left: 8.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
