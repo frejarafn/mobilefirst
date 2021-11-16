@@ -10,7 +10,7 @@
 :root {
   /* farver */
   --dark: #190604;
-  --white: #ffffff;
+  --baggrundsfarve: #eaf1f2;
 
   --header: rgb(0, 82, 94);
 
@@ -33,7 +33,7 @@ header{
 /* Her bruges en variabel: --blue */
 body {
   font-family: var(--broedtekst);
-  background-color: var(--white);
+  background-color: var(--baggrundsfarve);
   color: var(--dark);
   margin: 0;
 
