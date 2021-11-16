@@ -423,7 +423,9 @@ a {
   .dropdown { display: none;}
 
   #overskrift {font-size: 5ch;}
-  
+
+  #undersidebilleder {padding-left: 100px;}
+
 .dtmenu{display: flex;}
 
 
