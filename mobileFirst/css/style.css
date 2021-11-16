@@ -212,16 +212,16 @@ padding-top: 1ch;
 }
 
 .facebook{
-width: 3ch;
-height: 3ch;
+width: 2.2ch;
+height: 2.2ch;
 padding-top: 0.5ch;
 padding-left: 0ch;
 
 }
 
 .insta{
-  width: 3ch;
-  height: 3ch;
+  width: 2.2ch;
+  height: 2.2ch;
   padding-top: 0.5ch;
   padding-left: 0ch;
 }
@@ -234,7 +234,7 @@ section {
 
 /* Billeder */
 img {
-  width: 100%;
+max-width: 100%;
   display: flex;
 
 }
@@ -243,7 +243,7 @@ a {
     text-decoration: none;
   }
 
-
+/* Navigationsbar med submenu */
 .dtmenu {
   display: flex;
   justify-content: space-between;
@@ -310,10 +310,6 @@ a {
 .subnav:hover .subnav-content {
   display: block;
 }
-
-
-
-
 
 
 
