@@ -10,10 +10,10 @@
 :root {
   /* farver */
   --dark: #190604;
-  --baggrundsfarve: #eaf1f2;
-
+  --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
-
+  --navbar: #366873;
+  --navhover: #7fabab;
   /* fonte */
   --overskrift: 'avenir';
   --broedtekst: 'niveau-grotesk';
@@ -46,7 +46,7 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 2.4ch;
   color: white;
-padding: 0;
+  padding: 0;
 }
 
 h2 {

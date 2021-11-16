@@ -10,13 +10,14 @@
 :root {
   /* farver */
   --dark: #190604;
-  --baggrundsfarve: #eaf1f2;
-
+  --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
+  --navbar: #366873;
+  --navhover: #7fabab;
 
   /* fonte */
   --overskrift: 'avenir';
-  --broedtekst: avenir;
+  --broedtekst: 'niveau-grotesk';
 
   /* whitespace */
   --whitespace: .5rem;
@@ -47,7 +48,9 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 2.4ch;
   color: white;
-padding: 0;
+  width: 100%;
+  height: auto;
+padding-top: 0px;
 }
 
 p {
@@ -73,6 +76,8 @@ html {
 
 
 /* Dropdown burgermenuen */
+
+
 
 .dropdown{
     position: relative;
@@ -223,11 +228,83 @@ a {
     text-decoration: none;
   }
 
+
+.dtmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* font-size: 20pt; */
+  background-color: var(--navbar);
+  overflow: hidden;
+}
+
+
+.dtmenu a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dtmenu a:hover, .subnav:hover .subnavbtn {
+  background-color: var(--navhover);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: var(--navhover);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
 /* MOBILE FIRST (via Flexbox) */
 .example {
   padding: 20px;
   color: blue;
 }
+
+
+
+
+
 
 
 /* Her begynder de forskellige devices */
@@ -237,6 +314,11 @@ a {
   /* A. Giv baggrunden en farve */
   .example {background: pink;}
    section {font-size: 2em;}
+  .dtmenu{display: none;}
+
+
+
+
 
 }
 
@@ -246,6 +328,12 @@ a {
   /* Vælg en anden baggrundsfarve til tablets */
   .example {background: green;}
   /* Flexbox: design efter skitser */
+  .dtmenu{display: none;}
+
+
+
+
+
 
   /* Menu */
 
@@ -291,6 +379,14 @@ a {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 .example {background: black;}
   /* 3.B.: Skjul burgeren */
+.dropdown { display: none;}
+
+#overskrift {font-size: 5ch;}
+
+#forsidebilleder{display: none;}
+
+  .dtmenu{display: flex;}
+
 
   /* 3.C.: Vis menuen, og gør den horisontal */
 
@@ -298,13 +394,18 @@ a {
 
   /* 3.E.: Giv fuld bredde til øverste section */
 
+
+
 }
 
 @media only screen and (min-width: 992px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 .example {background: blue;}
 section {font-size: 0.2em;}
+
+
   /* 3.B.: Skjul burgeren */
+
 
   /* 3.C.: Vis menuen, og gør den horisontal */
 
