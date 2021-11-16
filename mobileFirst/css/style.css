@@ -300,13 +300,6 @@ a {
 
 
 
-/* MOBILE FIRST (via Flexbox) */
-.example {
-  padding: 20px;
-  color: blue;
-}
-
-
 
 
 
@@ -317,7 +310,6 @@ a {
 /* 1. Mobile enheder */
 @media only screen and (max-width: 600px) {
   /* A. Giv baggrunden en farve */
-  .example {background: pink;}
    section {font-size: 2em;}
   .dtmenu{display: none;}
 
@@ -420,14 +412,10 @@ section {font-size: 0.2em;}
 }
 
 
+@media only screen and (min-width: 1200px)
 
-  /* 3.B.: Skjul burgeren */
+  
 
 
-  /* 3.C.: Vis menuen, og gør den horisontal */
-
-  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
-
-  /* 3.E.: Giv fuld bredde til øverste section */
 
 }
