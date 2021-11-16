@@ -10,6 +10,7 @@
 :root {
   /* farver */
   --dark: #190604;
+  --white:(255, 255, 255);
   --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
   --navbar: #366873;
