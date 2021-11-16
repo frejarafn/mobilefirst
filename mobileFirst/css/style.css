@@ -52,7 +52,9 @@ body {
   padding: 25px;
 }
 
-
+.greasebilledeforside {
+  padding: 15px;
+}
 
 
 /* Typografisk */
@@ -324,7 +326,7 @@ a {
    section {font-size: 2em;}
   .dtmenu{display: none;}
   #deskbilleder {display: none;}
-
+  .greasebilledeforside {display: none;}
 
 
 
