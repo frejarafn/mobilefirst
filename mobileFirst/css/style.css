@@ -10,7 +10,7 @@
 :root {
   /* farver */
   --dark: #190604;
-  --baggrundsfarve: #eaf1f2;
+  --baggrundsfarve: rgb(234, 241, 242);
 
   --header: rgb(0, 82, 94);
 
