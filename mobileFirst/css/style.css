@@ -42,6 +42,17 @@ body {
 
 }
 
+.desktopforsidebilleder {
+  display: flex;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+}
+
+
 
 
 /* Typografisk */
@@ -312,7 +323,7 @@ a {
   /* A. Giv baggrunden en farve */
    section {font-size: 2em;}
   .dtmenu{display: none;}
-
+  #deskbilleder {display: none;}
 
 
 
@@ -326,7 +337,7 @@ a {
   .example {background: green;}
   /* Flexbox: design efter skitser */
   .dtmenu{display: none;}
-
+  #deskbilleder {display: none;}
 
 
 
@@ -377,6 +388,8 @@ a {
 .example {background: black;}
   /* 3.B.: Skjul burgeren */
 .dropdown { display: none;}
+
+.deskbilleder { display: none; }
 
 #overskrift {
   width: 50%;
