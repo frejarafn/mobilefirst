@@ -10,8 +10,7 @@
 :root {
   /* farver */
   --dark: #190604;
-  --white: #ffffff;
-
+  --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
   --navbar: #366873;
   --navhover: #7fabab;
@@ -35,7 +34,7 @@ header{
 /* Her bruges en variabel: --blue */
 body {
   font-family: var(--broedtekst);
-  background-color: var(--white);
+  background-color: var(--baggrundsfarve);
   color: var(--dark);
   margin: 0;
 
@@ -49,7 +48,9 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 2.4ch;
   color: white;
-padding: 0;
+  width: 100%;
+  height: auto;
+padding-top: 10px;
 }
 
 p {
