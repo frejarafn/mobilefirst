@@ -47,7 +47,9 @@ body {
   font-family: retiro-std-24pt, sans-serif;
   font-size: 2.4ch;
   color: white;
-padding: 0;
+  width: 100%;
+  height: auto;
+padding-top: 10px;
 }
 
 p {
