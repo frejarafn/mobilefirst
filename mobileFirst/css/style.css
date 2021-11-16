@@ -406,6 +406,11 @@ a {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 .example {background: blue;}
 section {font-size: 0.2em;}
+#overskrift {
+  max-width: 15em;
+  margin-left: 8.5em;
+}
+
 
 
   /* 3.B.: Skjul burgeren */
