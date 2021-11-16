@@ -395,7 +395,7 @@ a {
   margin-right: auto;
 }
 
-#forsidebilleder{display: none;}
+.forsidebilleder{display: none;}
 
   .dtmenu{display: flex;}
 
@@ -428,5 +428,4 @@ section {font-size: 0.2em;}
     display: block;
     margin-left: auto;
     margin-right: auto;
-
-}
+  }
