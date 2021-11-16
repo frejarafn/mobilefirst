@@ -255,16 +255,16 @@ padding-top: 1ch;
 }
 
 .facebook{
-width: 3ch;
-height: 3ch;
+width: 2.2ch;
+height: 2.2ch;
 padding-top: 0.5ch;
 padding-left: 0ch;
 
 }
 
 .insta{
-  width: 3ch;
-  height: 3ch;
+  width: 2.2ch;
+  height: 2.2ch;
   padding-top: 0.5ch;
   padding-left: 0ch;
 }
@@ -354,14 +354,6 @@ a {
 
 
 
-
-/* MOBILE FIRST (via Flexbox) */
-.example {
-  padding: 20px;
-  color: blue;
-}
-
-
 /* Her begynder de forskellige devices */
 
 /* 1. Mobile enheder */
@@ -421,7 +413,7 @@ a {
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
-.example {background: black;}
+
   /* 3.B.: Skjul burgeren */
   .dropdown { display: none;}
 
