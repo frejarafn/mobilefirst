@@ -10,6 +10,7 @@
 :root {
   /* farver */
   --dark: #190604;
+  --white:(255, 255, 255);
   --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
   --navbar: #366873;
@@ -292,6 +293,8 @@ a {
     /* font-size: 20pt; */
     background-color: var(--navbar);
     overflow: hidden;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
 
@@ -443,6 +446,10 @@ a {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 .example {background: blue;}
 section {font-size: 0.2em;}
+#overskrift {
+  max-width: 15em;
+  margin-left: 8.5em;
+}
   /* 3.B.: Skjul burgeren */
 
   /* 3.C.: Vis menuen, og gør den horisontal */
