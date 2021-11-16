@@ -128,7 +128,7 @@ html {
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 10px 14px;
   text-decoration: none;
   display: block;
 }
@@ -285,6 +285,73 @@ a {
     text-decoration: none;
   }
 
+  .dtmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* font-size: 20pt; */
+    background-color: var(--navbar);
+    overflow: hidden;
+  }
+
+
+  .dtmenu a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 28px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dtmenu a:hover, .subnav:hover .subnavbtn {
+    background-color: var(--navhover);
+  }
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: var(--navhover);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+
+
+
 /* MOBILE FIRST (via Flexbox) */
 .example {
   padding: 20px;
@@ -299,7 +366,7 @@ a {
   /* A. Giv baggrunden en farve */
   .example {background: pink;}
    section {font-size: 2em;}
-
+  .dtmenu{display: none;}
 }
 
 /* 2. Tablets */
@@ -308,7 +375,7 @@ a {
   /* Vælg en anden baggrundsfarve til tablets */
   .example {background: green;}
   /* Flexbox: design efter skitser */
-
+.dtmenu{display: none;}
   /* Menu */
 
   /* 2.A. gør burgeren synlig */
@@ -353,6 +420,14 @@ a {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 .example {background: black;}
   /* 3.B.: Skjul burgeren */
+  .dropdown { display: none;}
+
+  #overskrift {font-size: 5ch;}
+  
+.dtmenu{display: flex;}
+
+
+
 
   /* 3.C.: Vis menuen, og gør den horisontal */
 

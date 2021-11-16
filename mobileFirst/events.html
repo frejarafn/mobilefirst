@@ -31,57 +31,107 @@
 	<div id="wrap">
 
 		<!-- Emmet tip: nav>ul>li{Menu $}*3 -->
-			<header>
-				<nav>
-					<div class="dropdown">
-					  <button id="burger" class="dropbtn">☰</button>
-					  <div class="dropdown-content">
-									<a class="burgeroverskrifter" href="#">MUSICAL</a>
-									<ul class="third-level-menu">
-									<li><a href="#">GREASE</a></li>
-									<li><a href="#">Tidligere Forestillinger</a></li>
-									<li><a href="#">Køb Billet</a></li>
-							</ul>
-
-					  <a class="burgeroverskrifter" href="#">BLIV FRIVILLIG</a>
-						<ul class="third-level-menu">
-								<li><a href="#">Frivillig hos HMT</a></li>
-								<li><a href="#">Tilmelding</a></li>
+		<header>
+			<nav>
+				<div class="dropdown">
+					<button id="burger" class="dropbtn">☰</button>
+					<div class="dropdown-content">
+								<a class="burgeroverskrifter" href="musical.html">MUSICAL</a>
+								<ul class="third-level-menu">
+								<a href="musical.html#grease">GREASE</a>
+								<a href="musical.html#tidligereforestillinger">Tidligere Forestillinger</a>
+								<a href="musical.html#koebbillet">Køb Billet</a>
 						</ul>
-						</li>
-					  <a class="burgeroverskrifter" href="#">OM HMT</a>
-						<ul class="third-level-menu">
-								<li><a href="#">Om Foreningen</a></li>
-								<li><a href="#">Den Kreative Ledelse</a></li>
-								<li><a href="#">Bestyrelsen & Sponsorer</a></li>
-						</ul>
-						<a  class="burgeroverskrifter" href="#">EVENTS</a>
-						<ul class="third-level-menu">
-								<li><a href="#">Eventkalender</a></li>
-								<li><a href="#">Kommende & Afholdte Events</a></li>
-						</ul>
-					  </div>
+					<a class="burgeroverskrifter" href="frivillig.html">BLIV FRIVILLIG</a>
+					<ul class="third-level-menu">
+							<a href="frivillig.html#frivillighoshmt">Frivillig hos HMT</a>
+							<a href="frivillig.html#tilmelding">Tilmelding</a>
+					</ul>
+					<a class="burgeroverskrifter" href="omhmt.html">OM HMT</a>
+					<ul class="third-level-menu">
+						<a href="omhmt.html#omforeningen">Om Foreningen</a>
+						<a href="omhmt.html#denkreativeledelse">Den Kreative Ledelse</a>
+						<a href="omhmt.html#bestyrelse">Bestyrelsen & Sponsorer</a>
+					</ul>
+					<a  class="burgeroverskrifter" href="events.html">EVENTS</a>
+					<ul class="third-level-menu">
+						<a href="events.html#eventkalender">Eventkalender</a>
+							<a href="events.html#kommendeevents">Kommende & Afholdte Events</a>
+					</ul>
 					</div>
-						<a href="index.html">
-							<p id="overskrift"> HORSENS MUSICAL TEATER</p>
-						</a>
-						<a href="index.html">
-							<img id="logo" src="images/j.jpg" alt="">
-						</a>
-				</nav>
+				</div>
+					<a href="index.html">
+						<img id="overskrift" src="images/overskrift.png" alt="" class="responsive">
+					</a>
+					<a href="index.html">
+					</a>
+			</nav>
+
+
+<nav class="dtmenu">
+	<div class="subnav">
+		<button class="subnavbtn">
+<a href="musical.html">
+			MUSICAL
+</a>
+			<i class="random"></i></button>
+		<div class="subnav-content">
+			<a href="musical.html#grease">GREASE</a>
+				<a href="musical.html#tidligereforestillinger">Tidligere forestillinger</a>
+					<a href="musical.html#koebbillet">Køb billet</a>
+		</div>
+	</div>
+<div class="subnav">
+<button class="subnavbtn">
+	<a href="frivillig.html">
+	BLIV FRIVILLIG
+	</a>
+	<i class="random"></i></button>
+<div class="subnav-content">
+	<a href="frivillig.html#frivillighoshmt">Frivillig hos HMT</a>
+	<a href="frivillig.html#tilmelding">Tilmelding</a>
+</div>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn">
+<a href="omhmt.html">
+	OM HMT
+</a>
+	<i class="random"></i></button>
+<div class="subnav-content">
+	<a href="omhmt.html#omforeningen">Om foreningen</a>
+	<a href="omhmt.html#denkreativeledelse">Den Kreative Ledelse</a>
+	<a href="omhmt.html#bestyrelse">Bestyrelsen & Sponsorer</a>
+</div>
+</div>
+
+<div class="subnav">
+<button class="subnavbtn">
+<a href="events.html">
+	EVENTS
+</a>
+	<i class="random"></i></button>
+<div class="subnav-content">
+	<a href="events.html#eventkalender">Eventkalender</a>
+	<a href="events.html#kommendeevents">Kommende & Afholdte Events</a>
+</div>
+</div>
+
+</nav>
 
 
 
-
-			<!-- Menuer laves som regel i form af uordnede lister.
-					 Listerne kan styles så de går vandret eller lodret -->
-			<!-- <ul id="menu">
-				<li><a href="#aaa"> MUSICALS </a></li>
-				<li><a href="#bbb"> BLIV FRIVILLIG </a></li>
-				<li><a href="#ccc"> EVENTS </a></li>
-				<li><a href="#ddd"> OM HMT </a></li>
-			</ul> -->
+		<!-- Menuer laves som regel i form af uordnede lister.
+				 Listerne kan styles så de går vandret eller lodret -->
+		<!-- <ul id="menu">
+			<li><a href="#aaa"> MUSICALS </a></li>
+			<li><a href="#bbb"> BLIV FRIVILLIG </a></li>
+			<li><a href="#ccc"> EVENTS </a></li>
+			<li><a href="#ddd"> OM HMT </a></li>
+		</ul> -->
 </header>
+
 
 
 
