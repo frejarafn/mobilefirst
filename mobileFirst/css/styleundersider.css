@@ -60,7 +60,7 @@ h3 {
   font-family: var(--broedtekst);
   text-align: left;
   font-size: 1.5em;
-  padding-left: 64px;
+  padding-left: 50px;
 }
 
 p {
@@ -80,9 +80,9 @@ p {
 }
 
 #undersidebilleder {
-  margin-left: 1.6em;
-  margin-right: 1.6em;
-  max-width: 35ch;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 100ch;
 }
 
 
