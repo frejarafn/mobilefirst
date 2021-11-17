@@ -80,9 +80,10 @@ p {
 }
 
 #undersidebilleder {
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: 100ch;
+
+  max-width: 80%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 
@@ -452,7 +453,7 @@ text-decoration: underline;
   }
 
 
-  #undersidebilleder {padding-left: 100px;}
+  /* #undersidebilleder {padding-left: 50px;} */
 
 .dtmenu{display: flex;}
 #undersidebigphoto  {
@@ -591,3 +592,6 @@ p {font-size: 1.5em;
   label {
     margin-left: 25%;
   }
+}
+}
+}
