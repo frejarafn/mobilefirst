@@ -10,7 +10,7 @@
 :root {
   /* farver */
 
-  --white:(255, 255, 255);
+  --white: rgb(255, 255, 255);
   --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
   --white: rgb(255, 255, 255);
@@ -37,15 +37,26 @@ header{
 body {
   font-family: var(--broedtekst);
   background-color: var(--baggrundsfarve);
-  color: var(--dark);
   margin: 0;
 
 }
 
 .desktopforsidebilleder {
   display: flex;
+
 }
 
+#popup{
+  transition: transform .2s;
+
+}
+#popup1:hover, #popup2:hover, #popup3:hover, #popup4:hover{
+-ms-transform: scale(1.1); /* IE 9 */
+ -webkit-transform: scale(1.1); /* Safari 3-8 */
+ transform: scale(1.1);
+
+
+}
 .column {
   float: left;
   width: 33.33%;
@@ -163,6 +174,73 @@ html {
   margin-right: 10px;
   margin-top: 5px;
 }
+/* Navigationsbar med submenu */
+.dtmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* font-size: 20pt; */
+  background-color: var(--navbar);
+  overflow: hidden;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+
+.dtmenu a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dtmenu a:hover, .subnav:hover .subnavbtn {
+  background-color: var(--navhover);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: var(--navhover);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
 
 
 /* Navigation and footer */
@@ -243,73 +321,6 @@ a {
     text-decoration: none;
   }
 
-/* Navigationsbar med submenu */
-.dtmenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  /* font-size: 20pt; */
-  background-color: var(--navbar);
-  overflow: hidden;
-  padding-left: 120px;
-  padding-right: 120px;
-}
-
-
-.dtmenu a {
-  float: left;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 28px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dtmenu a:hover, .subnav:hover .subnavbtn {
-  background-color: var(--navhover);
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: var(--navhover);
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
 
 
 
@@ -413,6 +424,7 @@ a {
 @media only screen and (min-width: 992px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 section {font-size: 0.2em;}
+
 #overskrift {
   width: 50%;
   display: block;
@@ -423,9 +435,9 @@ section {font-size: 0.2em;}
 
 @media only screen and (min-width: 1200px){
   section {font-size: 0.2em;}
-  #overskrift {
+
+#overskrift {
     width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-  }
+    margin-right: auto; }

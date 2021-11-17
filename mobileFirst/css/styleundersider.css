@@ -52,8 +52,9 @@ body {
 
 h2 {
   font-family: var(--broedtekst);
-  text-align: center;
+  text-align: left;
   font-size: 1.5em;
+  padding-left: 1ch;
 }
 
 h3 {
@@ -69,7 +70,7 @@ p {
   padding-bottom: var(--whitespace);
   font-size: 1em;
   max-width: 35ch;
-  padding-left: 1.6em;
+  padding-left: 1ch;
   padding-right: 1.6em;
   text-align: justify;
   hyphens: auto;
@@ -272,8 +273,23 @@ padding-left: 0ch;
 
 /* Sections (højde == skærmhøjde) */
 section {
-  background-color: var(--white);
+  background-color: var(--baggrundsfarve);
+
 }
+
+
+.column {
+  float: left;
+  width: 50%;
+  }
+
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+
 
 /* Billeder */
 img {
@@ -364,6 +380,7 @@ a {
   .dtmenu{display: none;}
 }
 
+
 /* 2. Tablets */
 
 @media only screen and (min-width: 600px) {
@@ -448,8 +465,12 @@ text-decoration: underline;
   #undersidebilleder {padding-left: 100px;}
 
 .dtmenu{display: flex;}
-
-
+#undersidebigphoto  {
+  padding: 64px;
+}
+h2 {
+  padding-left: 64px;
+}
 
 
   /* 3.C.: Vis menuen, og gør den horisontal */
@@ -470,6 +491,12 @@ section {font-size: 0.2em;}
   margin-right: auto;
 }
 
+#undersidebigphoto  {
+  padding: 20em;
+}
+h2 {
+  padding-left: 64px;
+}
 
 @media only screen and (min-width: 1200px){
   section {font-size: 0.2em;}
@@ -478,4 +505,10 @@ section {font-size: 0.2em;}
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#undersidebigphoto  {
+  padding: 20em;
+}
+h2 {
+  padding-left: 64px;
 }
