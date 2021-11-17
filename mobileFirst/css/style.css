@@ -358,7 +358,10 @@ a {
   .dtmenu{display: none;}
 
 
+<<<<<<< HEAD
 }
+=======
+>>>>>>> e42e8fdd8ec3f6a5d637142bc725a1388ec8af39
 
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
