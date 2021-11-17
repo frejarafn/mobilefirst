@@ -66,8 +66,10 @@ body {
 }
 
 .greasebilledeforside {
-  padding: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-bottom: 100px;
+  padding-top: 50px;
   background-color: var(--baggrundsfarve)
 
 }
@@ -95,7 +97,8 @@ h2 {
   font-family: var(--broedtekst);
   text-align: left;
   font-size: 2em;
-  padding-left: 1ch;
+  padding-left: 45px;
+  padding-top: 30px;
 }
 
 /* Smooth scroll */
