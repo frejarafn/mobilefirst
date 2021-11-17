@@ -359,47 +359,6 @@ a {
 
 
 
-
-
-  /* Menu */
-
-  /* 2.A. gør burgeren synlig */
-
-  /* 2.B Skjul menu og burgermenu */
-
-  /* --- Flexbox (responsivt flex) --- */
-
-  /* 2.C. Sæt main til flex, flex-wrap til wrap og gap på 10px */
-
-  /* 2.D Forklaring:
-
-  main > * betyder: for alle "børn" af main { ... css her  ...}
-  Se disse tutorials
-
-  @url: https://flexbox-pattern-cheatsheet.kevinpowell.co/
-  @url: https://www.w3schools.com/cssref/css3_pr_flex.asp
-
-  Prøv:
-
-  main > * {
-    flex: 1 1 32ch;
-  }
-   */
-
-  /*
-  Forkortelsen 'flex' kan sætte flere værdier på en gang.
-  Mere om anvendelsen af flex her:
-  @url: https://developer.mozilla.org/en-US/docs/Web/CSS/flex
-
-  Fx: Three values: flex-grow | flex-shrink | flex-basis
-  flex: 2 2 10%;
-
-  Alternativt bruges box sizing, se
-  @url: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
-  */
-
-}
-
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
@@ -419,14 +378,6 @@ a {
 .forsidebilleder{display: none;}
 
   .dtmenu{display: flex;}
-
-
-  /* 3.C.: Vis menuen, og gør den horisontal */
-
-  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
-
-  /* 3.E.: Giv fuld bredde til øverste section */
-
 
 
 }
