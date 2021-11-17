@@ -385,6 +385,8 @@ a {
   .dtmenu{display: none;}
 }
 
+p {font-size: 1em;
+padding-left: 1ch;}
 
 /* 2. Tablets */
 
@@ -394,6 +396,8 @@ a {
   /* Flexbox: design efter skitser */
 .dtmenu{display: none;}
   /* Menu */
+
+p {font-size: 1.5em;}
 
   /* 2.A. gør burgeren synlig */
 
@@ -477,7 +481,8 @@ h2 {
   padding-left: 64px;
 }
 
-
+p {font-size: 1.5em;
+}
   /* 3.C.: Vis menuen, og gør den horisontal */
 
   /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
@@ -517,3 +522,4 @@ h2 {
 h2 {
   padding-left: 64px;
 }
+p {font-size: 1.5em;}
