@@ -348,7 +348,7 @@ a {
   #deskbilleder {display: none;}
   .greasebilledeforside {display: none;}
   #kommendemusicals {display: none;}
-
+}
 
 
 /* 2. Tablets */
@@ -359,7 +359,7 @@ a {
   /* Flexbox: design efter skitser */
   .dtmenu{display: none;}
 
-
+}
 
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
@@ -395,6 +395,8 @@ section {font-size: 0.2em;}
   margin-right: auto;
 }
 
+.forsidebilleder{display: none;}
+}
 
 
 @media only screen and (min-width: 1200px){
@@ -405,3 +407,6 @@ section {font-size: 0.2em;}
     display: block;
     margin-left: auto;
     margin-right: auto; }
+
+.forsidebilleder{display: none;}
+  }
