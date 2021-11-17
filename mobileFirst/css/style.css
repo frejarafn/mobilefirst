@@ -10,7 +10,7 @@
 :root {
   /* farver */
 
-  --white:(255, 255, 255);
+  --white: rgb(255, 255, 255);
   --baggrundsfarve: rgb(234, 241, 242);
   --header: rgb(0, 82, 94);
   --white: rgb(255, 255, 255);
@@ -37,7 +37,6 @@ header{
 body {
   font-family: var(--broedtekst);
   background-color: var(--baggrundsfarve);
-  color: var(--dark);
   margin: 0;
 
 }
@@ -413,6 +412,7 @@ a {
 @media only screen and (min-width: 992px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
 section {font-size: 0.2em;}
+
 #overskrift {
   width: 50%;
   display: block;
@@ -423,9 +423,9 @@ section {font-size: 0.2em;}
 
 @media only screen and (min-width: 1200px){
   section {font-size: 0.2em;}
-  #overskrift {
+
+#overskrift {
     width: 50%;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-  }
+    margin-right: auto; }
