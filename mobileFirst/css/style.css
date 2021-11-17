@@ -43,11 +43,6 @@ body {
 
 .desktopforsidebilleder {
   display: flex;
-    transition: transform .2s;
-
-}
-
-.desktopforsidebilleder:hover{
 
 }
 
