@@ -62,10 +62,14 @@ body {
   float: left;
   width: 33.33%;
   padding: 40px;
+  background-color: var(--baggrundsfarve)
 }
 
 .greasebilledeforside {
   padding: 200px;
+  padding-bottom: 100px;
+  background-color: var(--baggrundsfarve)
+
 }
 
 
