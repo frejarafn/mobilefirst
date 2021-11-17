@@ -80,9 +80,10 @@ p {
 }
 
 #undersidebilleder2  undersidebilleder3, undersidebilleder4, undersidebilleder1 {
-  max-width: 500px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 90%;
+  height: auto;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 
@@ -398,6 +399,10 @@ p {font-size: 1.5em;
 padding-left: 14px;
 padding-right: 14px;}
 
+h3 {
+  padding-left: 14px;
+}
+
 #louise {
   width: 20%;
   display: flex;
@@ -424,6 +429,9 @@ padding-right: 14px;}
   /* 3.B.: Skjul burgeren */
   .dropdown { display: none;}
 
+  h3 {
+    padding-left: 50px;
+  }
 #musical {
   font-weight: bold;
 text-decoration: underline;

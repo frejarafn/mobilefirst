@@ -65,7 +65,7 @@ body {
   background-color: var(--baggrundsfarve)
 }
 
-.greasebilledeforside {
+.greasebilledeforside{
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 100px;
@@ -73,7 +73,19 @@ body {
   background-color: var(--baggrundsfarve)
 
 }
+.loc{
+  padding-left: 380px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background-color: var(--baggrundsfarve)
 
+}
+
+.billetlink{
+  font-size: 2em;
+
+}
 
 /* Typografisk */
 
