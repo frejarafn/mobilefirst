@@ -53,14 +53,15 @@ body {
 h2 {
   font-family: var(--broedtekst);
   text-align: left;
-  font-size: 1.5em;
+  font-size: 2em;
   padding-left: 1ch;
 }
 
 h3 {
   font-family: var(--broedtekst);
-  text-align: center;
-  font-size: 1em;
+  text-align: left;
+  font-size: 1.5em;
+  padding-left: 64px;
 }
 
 p {
@@ -68,12 +69,15 @@ p {
   margin-left: var(--whitespace);
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
-  font-size: 1em;
-  max-width: 35ch;
-  padding-left: 1ch;
+  font-size: 1.5em;
+  /* max-width: 35ch; */
   padding-right: 1.6em;
   text-align: justify;
   hyphens: auto;
+  padding-left: 64px;
+  margin-left: 0;
+  padding-right: 64px;
+  margin-right: 0;
 }
 
 #undersidebilleder {
