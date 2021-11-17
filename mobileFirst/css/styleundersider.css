@@ -76,6 +76,7 @@ p {
   margin-left: 0;
   padding-right: 64px;
   margin-right: 0;
+  line-height: 1.7;
 }
 
 #undersidebilleder {
@@ -451,6 +452,9 @@ text-decoration: underline;
 h2 {
   padding-left: 50px;
 }
+
+p {padding-left: 50px;
+padding-right: 50px;}
 
 input[type=text], select, textarea {
   width: 50%;
