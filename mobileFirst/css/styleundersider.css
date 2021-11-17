@@ -409,8 +409,15 @@ padding-right: 14px;}
   clear: both;
   }
 
+  .kreativledelse {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: var(--baggrundsfarve)
+  }
 
-}
+  .kreativledelse img {
+    width: 100%;
 
 
 /* 3. Stor skærm (slut her) */
