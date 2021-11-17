@@ -160,6 +160,10 @@ html {
   block-size: auto;
 }
 
+.kreativledelse {
+  padding: 10px;
+}
+
 #burger {
   font-size: 20px;
   text-decoration: none;
@@ -405,8 +409,16 @@ padding-right: 14px;}
   clear: both;
   }
 
+  .kreativledelse {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: var(--baggrundsfarve)
+  }
 
-}
+  .kreativledelse img {
+    width: 100%;
+
 
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
