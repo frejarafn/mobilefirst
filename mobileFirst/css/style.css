@@ -55,8 +55,9 @@ body {
  -webkit-transform: scale(1.1); /* Safari 3-8 */
  transform: scale(1.1);
 
-
 }
+
+
 .column {
   float: left;
   width: 33.33%;
@@ -64,7 +65,7 @@ body {
 }
 
 .greasebilledeforside {
-  padding: 40px;
+  padding: 200px;
 }
 
 
