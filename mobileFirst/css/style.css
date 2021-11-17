@@ -103,7 +103,6 @@ p {
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
   font-size: 2em;
-  max-width: 35ch;
   padding-left: 45px;
 }
 h2 {
