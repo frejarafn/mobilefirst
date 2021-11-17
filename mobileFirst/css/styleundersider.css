@@ -281,16 +281,7 @@ section {
 }
 
 
-.column {
-  float: left;
-  width: 50%;
-  }
 
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
 
 
 
@@ -402,7 +393,16 @@ p {font-size: 1.5em;
 padding-left: 14px;
 padding-right: 14px;}
 
+.column {
+  float: left;
+  width: 50%;
+  }
 
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
 
 
 }
@@ -452,8 +452,14 @@ h2 {
   padding-left: 50px;
 }
 
-
+p {font-size: 1.5em;
+  padding-left: 50px;
+  padding-right: 50px;}
 }
+
+
+
+
 
 @media only screen and (min-width: 992px) {
   /* 3.A.: Giv baggrunden en ny farve, sørg for en god kontrat til tekst. */
@@ -475,6 +481,18 @@ p {font-size: 1.5em;
   padding-left: 50px;
   padding-right: 50px;}
 
+  .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+
 @media only screen and (min-width: 1200px){
   section {font-size: 0.2em;}
   #overskrift {
@@ -492,3 +510,13 @@ h2 {
 p {font-size: 1.5em;
   padding-left: 50px;
   padding-right: 50px;}
+  .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
