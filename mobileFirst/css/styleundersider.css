@@ -79,14 +79,11 @@ p {
   line-height: 1.7;
 }
 
-#undersidebilleder {
-
+#undersidebilleder2  undersidebilleder3, undersidebilleder4, undersidebilleder1 {
   max-width: 90%;
   height: auto;
 margin-left: 50px;
 margin-right: 50px;
-
-
 }
 
 
@@ -433,7 +430,7 @@ h3 {
   .dropdown { display: none;}
 
   h3 {
-    padding-left: 14px;
+    padding-left: 50px;
   }
 #musical {
   font-weight: bold;
