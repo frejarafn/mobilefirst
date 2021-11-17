@@ -358,10 +358,6 @@ a {
   .dtmenu{display: none;}
 
 
-<<<<<<< HEAD
-}
-=======
->>>>>>> e42e8fdd8ec3f6a5d637142bc725a1388ec8af39
 
 /* 3. Stor skærm (slut her) */
 @media only screen and (min-width: 768px) {
@@ -382,14 +378,6 @@ a {
 .forsidebilleder{display: none;}
 
   .dtmenu{display: flex;}
-
-
-  /* 3.C.: Vis menuen, og gør den horisontal */
-
-  /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
-
-  /* 3.E.: Giv fuld bredde til øverste section */
-
 
 
 }
