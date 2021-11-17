@@ -54,7 +54,6 @@ h2 {
   font-family: var(--broedtekst);
   text-align: left;
   font-size: 2em;
-  padding-left: 1ch;
 }
 
 h3 {
@@ -383,9 +382,13 @@ a {
    section {font-size: 2em;}
   .dtmenu{display: none;}
 }
+h2 {
+  padding-left: 14px;
+}
 
 p {font-size: 1em;
-padding-left: 1ch;}
+padding-left: 14px;
+padding-right: 14px;}
 
 /* 2. Tablets */
 
@@ -396,7 +399,9 @@ padding-left: 1ch;}
 .dtmenu{display: none;}
   /* Menu */
 
-p {font-size: 1.5em;}
+p {font-size: 1.5em;
+padding-left: 14px;
+padding-right: 14px;}
 
   /* 2.A. gør burgeren synlig */
 
@@ -474,14 +479,15 @@ text-decoration: underline;
 
 .dtmenu{display: flex;}
 #undersidebigphoto  {
-  padding: 64px;
+  padding: 50px;
 }
 h2 {
-  padding-left: 64px;
+  padding-left: 50px;
 }
 
 p {font-size: 1.5em;
-}
+  padding-left: 50px;
+  padding-right: 50px;}
   /* 3.C.: Vis menuen, og gør den horisontal */
 
   /* 3.D.: #wrap må max fylde 80% og designet skal være centreret  */
@@ -501,11 +507,14 @@ section {font-size: 0.2em;}
 }
 
 #undersidebigphoto  {
-  padding: 20em;
+  padding: 50px;
 }
 h2 {
-  padding-left: 64px;
+  padding-left: 50px;
 }
+p {font-size: 1.5em;
+  padding-left: 50px;
+  padding-right: 50px;}
 
 @media only screen and (min-width: 1200px){
   section {font-size: 0.2em;}
@@ -516,9 +525,11 @@ h2 {
     margin-right: auto;
 }
 #undersidebigphoto  {
-  padding: 20em;
+  padding: 50px;
 }
 h2 {
-  padding-left: 64px;
+  padding-left: 50px;
 }
-p {font-size: 1.5em;}
+p {font-size: 1.5em;
+  padding-left: 50px;
+  padding-right: 50px;}
