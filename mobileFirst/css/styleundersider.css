@@ -417,6 +417,26 @@ a {
   /* 3.B.: Skjul burgeren */
   .dropdown { display: none;}
 
+#musical {
+  font-weight: bold;
+text-decoration: underline;
+}
+
+#frivillig {
+font-weight: bold;
+text-decoration: underline;
+}
+
+#omhmt {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#events {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
   #overskrift {
     width: 50%;
     display: block;
