@@ -398,26 +398,7 @@ p {font-size: 1.5em;
 padding-left: 14px;
 padding-right: 14px;}
 
-.column {
-  float: left;
-  width: 50%;
-  }
 
-  .row:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-
-  .kreativledelse {
-    float: left;
-    width: 25%;
-    padding: 20px;
-    background-color: var(--baggrundsfarve)
-  }
-
-  .kreativledelse img {
-    width: 100%;
 
 
 /* 3. Stor skærm (slut her) */
