@@ -74,11 +74,13 @@ body {
 
 }
 .loc{
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 100px;
   padding-top: 50px;
-  background-color: var(--baggrundsfarve)
+  background-color: var(--baggrundsfarve);
+  margin: 0;
+
 
 }
 
