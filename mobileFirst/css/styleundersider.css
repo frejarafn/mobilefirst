@@ -90,6 +90,12 @@ margin-left: 50px;
 margin-right: 50px;
 }
 
+.undersidebilleder {
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 94%;
+}
+
 
 /* Smooth scroll */
 html {
