@@ -75,15 +75,14 @@ body {
   text-align: center;
 
 }
-.loc{
-  padding-left: 100px;
-  padding-right: 100px;
+.loc1{
+  padding-left: 10ch;
+  padding-right: 10ch;
   padding-bottom: 100px;
   padding-top: 50px;
   background-color: var(--baggrundsfarve);
   margin: 0;
   text-align: center;
-  max-width: 100%;
 
 }
 
@@ -369,7 +368,7 @@ a {
   #kommendemusicals {display: none;}
   p {display: none;}
   h2 {display: none;}
-  .loc {display: none;}
+  .loc1 {display: none;}
   .billetlink {display: none;}
 }
 
