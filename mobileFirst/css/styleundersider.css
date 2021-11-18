@@ -190,7 +190,7 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the submit button */
 input[type=submit] {
   background-color: var(--header);
   color: white;
@@ -235,9 +235,6 @@ nav li {
 
 
 
-/* css specifikt til Om HMT undersiden*/
-
-
 /* Footer */
 footer {
   width: 100%;
@@ -251,7 +248,6 @@ footer {
 
 
 footer div:nth-child(2) {
-
   display: flex;
 }
 
