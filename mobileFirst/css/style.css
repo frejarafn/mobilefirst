@@ -361,6 +361,10 @@ a {
   #deskbilleder {display: none;}
   .greasebilledeforside {display: none;}
   #kommendemusicals {display: none;}
+  p {display: none;}
+  h2 {display: none;}
+  .loc {display: none;}
+  .billetlink {display: none;}
 }
 
 
