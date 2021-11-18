@@ -102,7 +102,7 @@ p {
   margin-right: var(--whitespace);
   padding-bottom: var(--whitespace);
   font-size: 2em;
-  max-width: 35ch;
+  max-width: 100ch;
   padding-left: 45px;
 }
 h2 {
