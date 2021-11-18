@@ -60,7 +60,11 @@ h3 {
   font-family: var(--broedtekst);
   text-align: left;
   font-size: 1.5em;
-  padding-left: 50px;
+  padding-left: 14px;
+}
+
+#billetkob {
+  text-align: center;
 }
 
 p {
