@@ -569,6 +569,7 @@ label {
 #undersidebigphoto  {
   padding: 50px;
 }
+nav {display: block;}
 h2 {
   padding-left: 50px;
 }
