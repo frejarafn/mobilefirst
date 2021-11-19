@@ -91,8 +91,8 @@ margin-right: 50px;
 }
 
 .undersidebilleder {
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   max-width: 90%;
 }
 
@@ -393,6 +393,11 @@ p {font-size: 1em;
 padding-left: 14px;
 padding-right: 14px;}
 
+.undersidebilleder {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
 /* 2. Tablets */
 
 @media only screen and (min-width: 600px) {
@@ -404,6 +409,11 @@ padding-right: 14px;}
 p {font-size: 1.5em;
 padding-left: 14px;
 padding-right: 14px;}
+.undersidebilleder {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
 
 h3 {
   padding-left: 14px;
@@ -437,6 +447,10 @@ h3 {
 
   h3 {
     padding-left: 50px;
+  }
+  .undersidebilleder {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 #musical {
   font-weight: bold;
@@ -474,6 +488,10 @@ text-decoration: underline;
 }
 h2 {
   padding-left: 50px;
+}
+.undersidebilleder {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 p {padding-left: 50px;
@@ -517,6 +535,11 @@ section {font-size: 0.2em;}
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.undersidebilleder {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #undersidebigphoto  {
